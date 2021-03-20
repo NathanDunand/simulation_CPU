@@ -1,4 +1,5 @@
 # simulation_CPU
+Un processeur simulé en C.<br>
 Ce projet a pour but de simuler le comportement d'un CPU rudimentaire en C. Il dispose de toutes les briques de bases d'un CPU classique, il peut donc théoriquement réaliser n'importe quel calcul si on sait le piloter.
 <br><br>
 Par défaut le CPU est sur 16b mais il fonctionne sur des configurations <32 bits. Pour changer, il suffit de se rendre à la ligne 16 et remplacer NBITS par le nombre de bits voulus (>0 && <32).
